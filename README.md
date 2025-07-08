@@ -6,11 +6,11 @@ This repository contains a simple Bash script to calculate **Solvent Accessible 
 
 SASA (Solvent Accessible Surface Area) represents the surface of a biomolecule that is accessible to a solvent (typically water). It is widely used in molecular dynamics analysis to measure protein exposure, stability, folding, and interactions.
 
-## 📜 Script: `calculate_sasa.sh`
+## 📜 Script: `sasa.sh`
 
 ### 🔧 Usage
 
 ```bash
-./calculate_sasa.sh -f <trajectory.xtc> -s <structure.tpr> [-n index.ndx] -o <output.xvg> -surface <group> -output <group>
+./sasa.sh -f <trajectory.xtc> -s <structure.tpr> [-n index.ndx] -o <output.xvg> -surface <group> -output <group>
 # gromacs-sasa-script
 Bash script for SASA calculation using GROMACS
